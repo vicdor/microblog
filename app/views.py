@@ -9,7 +9,7 @@ def index():
         { 'author': {'nickname': 'John'}, 
             'body': 'It\'s a beautiful day!' },
         { 'author': {'nickname': 'Susan'}, 
-            'body': 'It\'s okay I guess' }
+            'body': 'It\'s okay I guess.' }
     ]
     return render_template("index.html",
                            title = 'Victor',
